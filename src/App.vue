@@ -28,7 +28,7 @@ export default {
           pluginModelPath: 'live2d-widget-model-shizuku/assets/',
           tagMode: true,
           debug: false,
-          model: { jsonPath: '/static/live2dw/live2d-widget-model-shizuku/assets/shizuku.model.json' },
+          model: { jsonPath: './static/live2dw/live2d-widget-model-shizuku/assets/shizuku.model.json' },
           display: { position: 'right', width: 150, height: 300 ,hOffset: 10,vOffset:10 },
           mobile: { show: false },
           dialog:{default: true},
