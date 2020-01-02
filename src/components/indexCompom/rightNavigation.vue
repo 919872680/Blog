@@ -54,7 +54,7 @@
                         </text>
                         <text font-size="18" text-anchor="middle" x="50%" y="50%" text-transform="uppercase" fill="none"  stroke="#9b59b6" text-shadow="0 0 1px #3498db" stroke-width="1px" stroke-dasharray="90 310">
                             ♪♫Autograph♫♪
-                            <animate attributeName="stroke-dashoffset" begin="-6.5s" dur="6s" from="0" to="-400" repeatCount="indefinite"></animate>
+                            <animate attributeName="stroke-dashoffset" begin="-6s" dur="6s" from="0" to="-400" repeatCount="indefinite"></animate>
                         </text>
                     </g>
                 </svg>
@@ -114,15 +114,13 @@
   </script>
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
-  <style>
+  <style scoped>
     .Am_Recommend {
         float: right;
         width: 27%;
         height: 100%;
-        /* background-color: rgba(129, 119, 127, 0.40); */
-        /* background: #9c9c9c; */
-        /* box-shadow: 0 0 10px #cbcbcb; */
         margin-bottom: 0px;
+        margin-top: 25px;
     }
     .Am_ReTopTow {
         margin-top: 25px;

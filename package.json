@@ -11,10 +11,13 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@moefe/vue-aplayer": "^2.0.0-beta.5",
     "element-ui": "^2.13.0",
+    "hls.js": "^0.13.0",
     "particles.js": "^2.0.0",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue-video-player": "^5.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

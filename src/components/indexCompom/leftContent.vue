@@ -38,13 +38,14 @@
   </script>
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
-  <style>
+  <style scoped>
     .Am_Subject {
         float: left;
         width: 70%;
         height: 100%;
         background-color: rgba(255, 255, 255, 0.70);
         padding: 20px 0;
+        margin-top: 25px;
     }
     .Am_Sub:hover {
         box-shadow: 0 0 10px #cbcbcb;

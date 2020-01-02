@@ -3,7 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import APlayer from '@moefe/vue-aplayer';
+Vue.use(APlayer, {
+  productionTip: false,
+});
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

@@ -25,7 +25,9 @@
          </div>
        </header>
        <div class="conent" style="height:5000px">
+          <!-- 左布局 -->
           <leftContent/>
+          <!-- 右布局 -->
           <rightNavigation/>
        </div>
     </div>
@@ -49,7 +51,7 @@
   </script>
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
-  <style>
+  <style scoped>
       .herds { width: 100%;height: 90px;background: rgba(255, 255, 255, 0.52);border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;font-size: 14px;box-shadow: 0 0 25px rgba(74, 59, 114,1);}
       .herds-nav {position: fixed;width:100%;top: -90px;-webkit-transition: top .5s;-moz-transition: top .5s;-o-transition: top .5s;transition: top .5s;}
       .herds-nav-appear {top: 0;}
